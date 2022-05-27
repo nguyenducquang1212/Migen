@@ -1,0 +1,10 @@
+|top
+user_led0 <= test:test.user_led
+clk50 => sys_clk.IN1
+
+
+|top|test:test
+user_led <= __main___counter[25].DB_MAX_OUTPUT_PORT_TYPE
+clk => clk~0.DATAIN
+
+

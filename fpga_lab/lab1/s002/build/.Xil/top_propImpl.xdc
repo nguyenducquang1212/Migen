@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:/home/quangnd12/Migen/fpga_lab/lab1/s002/build/top.xdc rfile:../top.xdc id:1 order:EARLY} [current_design]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property LOC H17 [get_ports {user_led}]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property LOC E3 [get_ports {clk100}]
